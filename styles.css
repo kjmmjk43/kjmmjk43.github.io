@@ -1,12 +1,18 @@
-body{
+body {
     background: #008B8B;
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment {
-    display:flex;
+    width: 22%;
     padding:10px;
     margin:10px;
+    padding: 20px 10;
     background: #FAFAD2;
     border-radius:20px;
 }
@@ -15,26 +21,32 @@ body{
     width:200px;
     margin:14px;
     border:4px solid #008000;
+    display: block;
+    margin:auto;
 }
 
-.assignment img:hover{
+.assignment img:hover {
     border:4px solid #FA8072;
 }
 
-h1{
+h1 {
     color: #F0E68C;
     text-align:center;
 }
 
-h1:hover{
+h1:hover {
     color: #4682B4;
     
+}
+
+h2 {
+    text-align: center;
 }
 
 a {
     text-decoration: none;
    
-    color: #FFFFF0;
+    color: #008B8B;
 }
 a:hover {
     color: #FA8072;
